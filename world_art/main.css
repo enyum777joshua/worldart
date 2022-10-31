@@ -1,0 +1,288 @@
+ *{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	.topper{
+		display:grid;
+		grid-template-columns: 80% 20%;
+		background-color:#1e1e27;
+		width: 100%;
+		z-index: 5;
+	}
+	.sel{
+		padding-top: 15px;
+	}
+    .sel select{
+		cursor: pointer;
+		border-color: #1e1e27;
+		background-color: #1e1e27;
+		color: #a7aeba;
+	}
+	.sel option{
+        background-color: white;
+	}
+	.opt{
+		margin-right: 10px;
+	}
+	.top{ 
+		padding-left: 5%;
+		color: black;
+		width: 100%;
+		height: 150px;
+		position: relative;
+	}
+	.headings{
+		top: 0;
+		position: sticky;
+		padding: 30px;
+		display: grid;
+		grid-template-columns: 40% 60%;
+		color: black;
+		justify-content: space-between;
+        font-family: sans-serif;
+        background-color:white;
+        z-index: 5;
+        box-shadow: 0 2px 40px 8px rgba(15,15,15,0.15)
+	}
+	.headings a{
+		font-size: 20px;
+		text-decoration: none;
+		color: black;
+	}
+	.headings a:hover{
+		cursor: pointer;
+		color: #E3E3E1;
+	}
+	.header{
+		padding-left: 25%;
+		font-weight: 200;
+		color:lightgreen;
+		text-align: center;
+		font-family: sans-serif;
+	}
+	.rental{
+		display: flex;
+	}
+	.home{
+		display: flex;
+		justify-content: space-between;
+	}
+	h2{
+        font-weight: 200;
+	} 
+	.dot{
+		color: red;
+	}
+	.image1{
+		background-image: url(assets/img/composing.jpg);
+		background-color: silver;
+		height: 600px;
+	}
+	.image2{box-decoration-break:E3E3E1;
+		padding: 5%;
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+		justify-content: space-between;
+	}
+	.image2 img{
+        height: 400px;
+        width: 100%;
+	}
+	.apc{
+		color: white;
+		padding-top: 200px;
+		font-size: 40px;
+		margin-bottom: 100px;
+		font-family: sans-serif;
+		text-align:left;
+		padding-left: 5%;
+	}
+	.but1{
+		border: none;
+		border-radius: 5px;
+		width: 10%;
+		height: 40px;
+		background-color:#fe4c50;
+		color: white;
+	}
+	.but1:hover{
+		cursor: pointer;
+		background-color: #fe7c7f;
+	}
+	.image2 div{
+		position: relative;
+    }
+    .image2 h2{
+    	height: 50px;
+    	width: 200px;
+    	text-align: center;
+    	padding-top: 10px;
+    	background-color: white;
+    	top: 40%;
+    	font-family: sans-serif;
+    	bottom: 60%;
+    	left: 30%;
+    	position: absolute;
+    }
+    .image2 a:hover{
+    	color: grey;
+    	cursor: pointer;
+    }
+    .news{
+    	height: 100px;
+    	background-color:#f2f2f2;
+    	display:grid;
+    	grid-template-columns:38% 62%;
+    	font-family: sans-serif;
+    	padding: 0% 5%;
+    }
+    .youremail input{
+    	margin-top: 10px;
+    	border: none;
+    	margin-left: 34%;
+    	padding-left:15px;
+        width: 50%;
+        height: 45px;
+    }
+    .youremail button{
+    	color: white;
+    	border: none;
+    	background-color:#fe4c50;
+    	width: 15%;
+    	height: 45px;
+    }
+    .youremail button:hover{
+    	cursor: pointer;
+    	background-color: #fe7c7f;
+    }
+    .ai{
+    	margin-top: 50px;
+    	padding:0% 3% ;
+    	display: grid;
+    	grid-template-columns: 50% 50%;
+    }
+    .ancor a{
+    	font-family: sans-serif;
+    	padding:5%;
+    	color: black;
+        text-decoration: none;
+    }
+    .iter{
+    	margin-left: 75%;
+    }
+    .iter i{
+    	color: black;
+    	padding: 5%;
+    }
+    .iter i:hover{
+    	color: limegreen;
+    	cursor: pointer;
+    }
+    .copy {
+    	display:flex;
+    	padding: 5%;
+    }
+    .copy span{
+    	color: red;
+    	display: flex;
+    	font-family: sans-serif;
+    }
+    .beautiful{
+    	padding-top: 50px;
+    	text-align: center;
+    	font-family: sans-serif;
+    }
+    .beautiful p{
+    	padding-top: 10px;
+    	font-family: sans-serif; 
+    }
+    .arri h1{
+    	padding-top: 100px;
+    	text-align: center;
+    	font-size: 40px;
+    	font-family: sans-serif;
+    }
+    .arri p{
+    	margin-top: 20px;
+    	width: 8%;
+    	height: 5px;
+    	background-color: red;
+    	margin-left: 45%;
+    }
+    .pns ul{ 
+    	padding-top: 30px;
+    	background: transparent;
+    	display: grid;
+    	grid-template-columns: 33% 33% 33%;
+ 		list-style: none;
+ 		width: 50%;
+ 		margin: auto;
+    }
+    .pns ul li{
+    	padding: 15px;
+    	border: 1px solid #ccc;
+    	text-align: center;
+    	color: black;
+    	font-family: sans-serif;
+    }
+    .lateb{
+    	margin-top: 100px;
+    	font-size: 30px;
+    	text-align: center;
+    	font-family: sans-serif;
+    }
+    .lateb p{
+        margin-top: 20px;
+    	width: 8%;
+    	height: 5px;
+    	background-color: red;
+    	margin-left: 45%;
+    }
+    .blogspic{
+        padding: 5%;
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+		justify-content: space-between;
+    }
+    .section {
+            display: flex;
+            justify-content: space-between;     
+            align-items: center;    
+            flex: 1 1 30%;
+            padding: 50px;
+        }
+    .flex-sections {
+            border: none; 
+            margin:0 30px;
+            width: 33%;
+            position: relative;
+            border: 1px solid black;
+        }
+    .img1 img {
+            width: 100%;
+        }
+    .img2 img {
+
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 268px;
+            left: 100px;
+            border: 2px solid white;
+            border-radius: 50%;
+        }
+    .flex-sections p {
+
+            padding: 50px 10px 10px 10px;
+        }
+    .gallerybut{
+        margin-bottom: 30px;
+        margin-left: 105px;
+        border: none;
+        border-radius: 5px;
+        width: 30%;
+        height: 30px;
+        background-color:limegreen;
+        color: white;
+    }
